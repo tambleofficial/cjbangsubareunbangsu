@@ -17,3 +17,5 @@ Cloudflare Pages → Settings → Build → Build configuration:
 도메인을 바꾸면 `site.config.json`의 `siteUrl`과 Cloudflare의 `SITE_URL` 값이 있다면 둘 다 새 주소로 바꾸세요.
 
 RSS 제출: 배포 후 https://cjbangsubareunbangsu.pages.dev/rss.xml 을 열어 XML이 표시되면 네이버 서치어드바이저 → 요청 → RSS 제출에 전체 URL을 입력하세요. 페이지 내용을 변경하면 RSS도 갱신해야 합니다.
+
+상담 전화번호: 010-4289-0581 (상단 버튼, 첫 화면, 하단 상담 영역에서 전화 연결)
