@@ -1,0 +1,1 @@
+{"name":"cheongju-bareun-waterproofing","private":true,"version":"1.0.0","scripts":{"build":"node scripts/build.mjs","build:demo":"node scripts/build.mjs --demo"},"engines":{"node":">=20"}}
