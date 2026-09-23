@@ -15,3 +15,5 @@ Cloudflare Pages → Settings → Build → Build configuration:
 배포 성공 후 https://cjbangsubareunbangsu.pages.dev/naver5c085a3f735f8be533dfc3c0842e5ba3.html 을 열어 `naver-site-verification:` 한 줄이 보이면 네이버 서치어드바이저의 [소유확인]을 누릅니다. 파일명 중 `533dfc3c`를 정확히 확인하세요.
 
 도메인을 바꾸면 `site.config.json`의 `siteUrl`과 Cloudflare의 `SITE_URL` 값이 있다면 둘 다 새 주소로 바꾸세요.
+
+RSS 제출: 배포 후 https://cjbangsubareunbangsu.pages.dev/rss.xml 을 열어 XML이 표시되면 네이버 서치어드바이저 → 요청 → RSS 제출에 전체 URL을 입력하세요. 페이지 내용을 변경하면 RSS도 갱신해야 합니다.
