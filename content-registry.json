@@ -1,0 +1,110 @@
+{
+  "site_id": "cjbangsu",
+  "posts": [
+    {
+      "target_id": "CAT01",
+      "role": "pillar",
+      "parent_id": null,
+      "canonical_url": "https://cjbangsubareunbangsu.pages.dev/blog/cheongju-waterproofing-company/",
+      "source_file": "public/blog/cheongju-waterproofing-company/index.html",
+      "title": "청주 방수 업체 | 공사·견적·지역별 업체 알아보기",
+      "primary_keyword": "청주 방수 업체",
+      "search_intent": "청주에서 방수공사가 필요할 때 공사 범위를 구분하고 업체를 비교하는 기준, 4개 구별 상세 탐색으로의 분기",
+      "status": "ready",
+      "date_published": "2026-09-26T09:00:00+09:00",
+      "date_modified": "2026-09-26T09:00:00+09:00",
+      "source_urls": [
+        "https://www.kosca.or.kr/const/capeval/list.do?menuId=MENU001126",
+        "https://www.nrca.net/roofing-guidelines/selecting-a-contractor",
+        "https://buildingscience.com/documents/reports/rr-0103-water-management/view",
+        "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900562410",
+        "https://www2.cslb.ca.gov/Consumers/Hire_A_Contractor/Contracts_And_Binding_Agreements.aspx"
+      ],
+      "linked_ids": ["CAT01-P01", "CAT01-P02", "CAT01-P03", "CAT01-P04"]
+    },
+    {
+      "target_id": "CAT01-P01",
+      "role": "cluster",
+      "parent_id": "CAT01",
+      "canonical_url": "https://cjbangsubareunbangsu.pages.dev/blog/sangdang-gu-waterproofing/",
+      "source_file": "public/blog/sangdang-gu-waterproofing/index.html",
+      "title": "청주 상당구 방수 업체 | 지역 공사·견적 상담 가이드",
+      "primary_keyword": "청주 상당구 방수 업체",
+      "search_intent": "상당구 현장에서 옥상·외벽·누수를 구분해 어떤 업체에 상담하고 출장·견적 전 무엇을 확인해야 하는지",
+      "status": "ready",
+      "date_published": "2026-09-26T09:00:00+09:00",
+      "date_modified": "2026-09-26T09:00:00+09:00",
+      "source_urls": [
+        "https://consumer.ftc.gov/articles/how-avoid-home-improvement-scam",
+        "https://buildingscience.com/project/coastal-massachusetts-house",
+        "https://buildingscience.com/documents/insights/bsi-051-decks-roofs-you-can-walk-on",
+        "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1028917121",
+        "https://buildingscience.com/project/sips-roof-shingle-ridging"
+      ],
+      "linked_ids": ["CAT01"]
+    },
+    {
+      "target_id": "CAT01-P02",
+      "role": "cluster",
+      "parent_id": "CAT01",
+      "canonical_url": "https://cjbangsubareunbangsu.pages.dev/blog/seowon-gu-waterproofing/",
+      "source_file": "public/blog/seowon-gu-waterproofing/index.html",
+      "title": "청주 서원구 방수 업체 | 공사·견적 알아보기",
+      "primary_keyword": "청주 서원구 방수 업체",
+      "search_intent": "서원구 주택·아파트·상가 방수 상담에서 공사 대상과 누수 원인을 정리하고 업체·견적을 비교하는 방법",
+      "status": "ready",
+      "date_published": "2026-09-26T09:00:00+09:00",
+      "date_modified": "2026-09-26T09:00:00+09:00",
+      "source_urls": [
+        "https://ag.ny.gov/publications/hiring-home-improvement-contractor",
+        "https://buildingscience.com/project/concrete-warehouse-loft-conversion",
+        "https://buildingscience.com/documents/digests/bsd-105-understanding-drainage-planes",
+        "https://www.citizensadvice.org.uk/wales/consumer/getting-home-improvements-done/before-you-get-building-work-done/",
+        "https://buildingscience.com/documents/digests/bsd-012-moisture-control-for-new-residential-buildings"
+      ],
+      "linked_ids": ["CAT01"]
+    },
+    {
+      "target_id": "CAT01-P03",
+      "role": "cluster",
+      "parent_id": "CAT01",
+      "canonical_url": "https://cjbangsubareunbangsu.pages.dev/blog/heungdeok-gu-waterproofing/",
+      "source_file": "public/blog/heungdeok-gu-waterproofing/index.html",
+      "title": "청주 흥덕구 방수 업체 | 견적 비교 전 확인사항",
+      "primary_keyword": "청주 흥덕구 방수 업체",
+      "search_intent": "흥덕구 주거·상가·사업장 방수 견적을 비교하기 전 공사 범위·업체 적격성·운영 제약·출장 여부 확인",
+      "status": "ready",
+      "date_published": "2026-09-26T09:00:00+09:00",
+      "date_modified": "2026-09-26T09:00:00+09:00",
+      "source_urls": [
+        "https://www.oregon.gov/ccb/pages/consumer-tools.aspx",
+        "https://buildingscience.com/documents/bareports/ba-1503-measure-guideline-deer-for-zerh-flat-roofs/view",
+        "https://www.sika.com/en/reference-projects/leaf-factory-roof.html",
+        "https://buildingscience.com/project/country-club",
+        "https://buildingscience.com/documents/digests/bsd030-rain-control-theory"
+      ],
+      "linked_ids": ["CAT01"]
+    },
+    {
+      "target_id": "CAT01-P04",
+      "role": "cluster",
+      "parent_id": "CAT01",
+      "canonical_url": "https://cjbangsubareunbangsu.pages.dev/blog/cheongwon-gu-waterproofing/",
+      "source_file": "public/blog/cheongwon-gu-waterproofing/index.html",
+      "title": "청주 청원구 방수 업체 | 지역 공사 상담 가이드",
+      "primary_keyword": "청주 청원구 방수 업체",
+      "search_intent": "청원구에서 오창·내수·도심권 방수 상담 전 공사 대상·누수 원인·업체 검증·보증 조건 준비",
+      "status": "ready",
+      "date_published": "2026-09-26T09:00:00+09:00",
+      "date_modified": "2026-09-26T09:00:00+09:00",
+      "source_urls": [
+        "https://www.oregon.gov/ccb/pages/home-improvement-month.aspx",
+        "https://buildingscience.com/documents/building-science-insights-newsletters/bsi-117-rain-control-drained-barrier-and-mass",
+        "https://www.sika.com/en/reference-projects/geberit-sanitaryware-roof.html",
+        "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lspttninfSeq=135236",
+        "https://buildingscience.com/project/pool-and-recreation-facility"
+      ],
+      "linked_ids": ["CAT01"]
+    }
+  ]
+}
