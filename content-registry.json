@@ -27,6 +27,207 @@
         "https://buildingscience.com/documents/insights/bsi-051-decks-roofs-you-can-walk-on",
         "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1028917121",
         "https://buildingscience.com/project/sips-roof-shingle-ridging"
+      ],
+      "linked_ids": ["CAT01-P01-C01", "CAT01-P01-C02", "CAT01-P01-C03", "CAT01-P01-C04", "CAT01-P01-C05", "CAT01-P01-C06", "CAT01-P01-C07", "CAT01-P01-C08", "CAT01-P01-C09", "CAT01-P01-C10"]
+    },
+    {
+      "target_id": "CAT01-P01-C01",
+      "role": "sub_cluster",
+      "parent_id": "CAT01-P01",
+      "parent_url": "https://cjbangsubareunbangsu.pages.dev/blog/sangdang-gu-waterproofing/",
+      "canonical_url": "https://cjbangsubareunbangsu.pages.dev/blog/nangseong-myeon-waterproofing/",
+      "source_file": "public/blog/nangseong-myeon-waterproofing/index.html",
+      "title": "낭성면 방수 업체 | 청주 출장·공사 견적 알아보기",
+      "primary_keyword": "낭성면 방수 업체 청주",
+      "status": "ready",
+      "date_published": "2026-09-26T09:00:00+09:00",
+      "date_modified": "2026-09-26T09:00:00+09:00",
+      "source_urls": [
+        "https://www.cheongju.go.kr/nangseong/index.do",
+        "https://portal.ct.gov/dcp/trade-practices-division/what-to-look-for-in-a-home-improvement-contractor",
+        "https://www.nsw.gov.au/housing-and-construction/building-or-renovating-a-home/preparing/contracts",
+        "https://www.dainichikasei.co.jp/product/bigsun_repair/jirei.html",
+        "https://iibec.org/publication-post/the-silent-killer-of-roofs-water-intrusion-and-the-case-for-proactive-leak-detection/"
+      ]
+    },
+    {
+      "target_id": "CAT01-P01-C02",
+      "role": "sub_cluster",
+      "parent_id": "CAT01-P01",
+      "parent_url": "https://cjbangsubareunbangsu.pages.dev/blog/sangdang-gu-waterproofing/",
+      "canonical_url": "https://cjbangsubareunbangsu.pages.dev/blog/miwon-myeon-waterproofing/",
+      "source_file": "public/blog/miwon-myeon-waterproofing/index.html",
+      "title": "미원면 방수 업체 | 청주 주택·건물 공사 알아보기",
+      "primary_keyword": "미원면 방수 업체 청주",
+      "status": "ready",
+      "date_published": "2026-09-26T09:00:00+09:00",
+      "date_modified": "2026-09-26T09:00:00+09:00",
+      "source_urls": [
+        "https://www.cheongju.go.kr/miwon/index.do",
+        "https://home4.nyc.gov/site/dca/consumers/shopping-services-home-improvement.page",
+        "https://www.nsw.gov.au/housing-and-construction/building-or-renovating-a-home/preparing/getting-quotes",
+        "https://www.sawada-bousui.net/sawada-bousui-cases.html",
+        "https://www.cbs.sa.gov.au/campaigns/beware-rogue-tradespeople"
+      ]
+    },
+    {
+      "target_id": "CAT01-P01-C03",
+      "role": "sub_cluster",
+      "parent_id": "CAT01-P01",
+      "parent_url": "https://cjbangsubareunbangsu.pages.dev/blog/sangdang-gu-waterproofing/",
+      "canonical_url": "https://cjbangsubareunbangsu.pages.dev/blog/gadeok-myeon-waterproofing/",
+      "source_file": "public/blog/gadeok-myeon-waterproofing/index.html",
+      "title": "가덕면 방수 업체 | 청주 지역 공사·견적 알아보기",
+      "primary_keyword": "가덕면 방수 업체 청주",
+      "status": "ready",
+      "date_published": "2026-09-26T09:00:00+09:00",
+      "date_modified": "2026-09-26T09:00:00+09:00",
+      "source_urls": [
+        "https://www1.cheongju.go.kr/gadeok/index.do",
+        "https://content.boston.gov/departments/consumer-affairs-and-licensing/home-improvement-and-contracting-tips",
+        "https://cms9.consumer.vic.gov.au/housing/building-and-renovating/plan-and-manage-your-building-project/contracts",
+        "https://www.facadetectonics.org/papers/process-of-repair-evaluation",
+        "https://tcandr.co.uk/pages/proimmune-roof-condition-survey"
+      ]
+    },
+    {
+      "target_id": "CAT01-P01-C04",
+      "role": "sub_cluster",
+      "parent_id": "CAT01-P01",
+      "parent_url": "https://cjbangsubareunbangsu.pages.dev/blog/sangdang-gu-waterproofing/",
+      "canonical_url": "https://cjbangsubareunbangsu.pages.dev/blog/namil-myeon-waterproofing/",
+      "source_file": "public/blog/namil-myeon-waterproofing/index.html",
+      "title": "남일면 방수 업체 | 청주 현장견적·공사 상담",
+      "primary_keyword": "남일면 방수 업체 청주",
+      "status": "ready",
+      "date_published": "2026-09-26T09:00:00+09:00",
+      "date_modified": "2026-09-26T09:00:00+09:00",
+      "source_urls": [
+        "https://www.cheongju.go.kr/namil/index.do",
+        "https://qbcc.qld.gov.au/news/unpacking-quotes-contracts-variations",
+        "https://www.westlancs.gov.uk/planning/building-regulations/advice-on-choosing-a-builder.aspx",
+        "https://iibec.org/publication-post/finding-the-leak/",
+        "https://buildingtransformation.co.uk/case-studies/ibis-hotel-roof-refurbishment-replacement/"
+      ]
+    },
+    {
+      "target_id": "CAT01-P01-C05",
+      "role": "sub_cluster",
+      "parent_id": "CAT01-P01",
+      "parent_url": "https://cjbangsubareunbangsu.pages.dev/blog/sangdang-gu-waterproofing/",
+      "canonical_url": "https://cjbangsubareunbangsu.pages.dev/blog/munui-myeon-waterproofing/",
+      "source_file": "public/blog/munui-myeon-waterproofing/index.html",
+      "title": "문의면 방수 업체 | 청주 출장 시공·견적 확인",
+      "primary_keyword": "문의면 방수 업체 청주",
+      "status": "ready",
+      "date_published": "2026-09-26T09:00:00+09:00",
+      "date_modified": "2026-09-26T09:00:00+09:00",
+      "source_urls": [
+        "https://www.cheongju.go.kr/munui/index.do",
+        "https://www.nsw.gov.au/housing-and-construction/building-or-renovating-a-home/preparing/checking-your-contractor-or-tradesperson-qualified",
+        "https://www.nidirect.gov.uk/articles/home-maintenance-and-repairs",
+        "https://www.gciconsultants.com/blog/case-study-forensic-water-intrusion-investigation-at-a-south-florida-hotel/",
+        "https://bousui-association.jp/example7/"
+      ]
+    },
+    {
+      "target_id": "CAT01-P01-C06",
+      "role": "sub_cluster",
+      "parent_id": "CAT01-P01",
+      "parent_url": "https://cjbangsubareunbangsu.pages.dev/blog/sangdang-gu-waterproofing/",
+      "canonical_url": "https://cjbangsubareunbangsu.pages.dev/blog/seongan-dong-waterproofing/",
+      "source_file": "public/blog/seongan-dong-waterproofing/index.html",
+      "title": "성안동 방수 업체 | 청주 상가·건물 공사 알아보기",
+      "primary_keyword": "성안동 방수 업체 청주",
+      "status": "ready",
+      "date_published": "2026-09-26T09:00:00+09:00",
+      "date_modified": "2026-09-26T09:00:00+09:00",
+      "source_urls": [
+        "https://www.wdpa.com/projects/new-roc-city-mall/",
+        "https://westernspecialtycontractors.com/500-n-brand-glendale-ca/",
+        "https://www.flowcrete.eu/en-gb/solutions-services/case-studies/yellow-beach-car-park-telford/",
+        "https://iibec.org/publication-post/improper-use-of-storefront-window-systems-leading-to-costly-repairs-a-case-study/",
+        "https://www.consumer.vic.gov.au/housing/building-and-renovating/plan-and-manage-your-building-project/getting-quotes"
+      ]
+    },
+    {
+      "target_id": "CAT01-P01-C07",
+      "role": "sub_cluster",
+      "parent_id": "CAT01-P01",
+      "parent_url": "https://cjbangsubareunbangsu.pages.dev/blog/sangdang-gu-waterproofing/",
+      "canonical_url": "https://cjbangsubareunbangsu.pages.dev/blog/tap-dong-waterproofing/",
+      "source_file": "public/blog/tap-dong-waterproofing/index.html",
+      "title": "탑동 방수 업체 | 청주 주택·옥상 공사 찾기",
+      "primary_keyword": "탑동 방수 업체 청주",
+      "status": "ready",
+      "date_published": "2026-09-26T09:00:00+09:00",
+      "date_modified": "2026-09-26T09:00:00+09:00",
+      "source_urls": [
+        "https://www.cheongju.go.kr/tap-daeseong/contents.do?key=3657",
+        "https://iibec.org/publication-post/roof-moisture-surveys-an-effective-tool-for-the-industry/",
+        "https://www.consumer.vic.gov.au/housing/building-and-renovating/plan-and-manage-your-building-project/about-builders-tradespeople-and-other-building-practitioners",
+        "https://duradek.com/case-history/project-189-failed-tiled-balcony-becomes-beautiful-poolside-space/",
+        "https://iibec.org/publication-post/2013-08-wood/"
+      ]
+    },
+    {
+      "target_id": "CAT01-P01-C08",
+      "role": "sub_cluster",
+      "parent_id": "CAT01-P01",
+      "parent_url": "https://cjbangsubareunbangsu.pages.dev/blog/sangdang-gu-waterproofing/",
+      "canonical_url": "https://cjbangsubareunbangsu.pages.dev/blog/daeseong-dong-waterproofing/",
+      "source_file": "public/blog/daeseong-dong-waterproofing/index.html",
+      "title": "대성동 방수 업체 | 청주 건물 누수·공사 상담",
+      "primary_keyword": "대성동 방수 업체 청주",
+      "status": "ready",
+      "date_published": "2026-09-26T09:00:00+09:00",
+      "date_modified": "2026-09-26T09:00:00+09:00",
+      "source_urls": [
+        "https://www.cheongju.go.kr/tap-daeseong/index.do",
+        "https://buildingscience.com/documents/insights/bsi-044-pressure-is-on",
+        "https://hightower-labs.com/library/case_001.html",
+        "https://iibec.org/publication-post/iibec-technical-advisory-025-2025-roof-system-functionality/",
+        "https://www.consumer.vic.gov.au/licensing-and-registration/builders-and-tradespeople/running-your-business/working-with-your-home-building-client/giving-quotes-tradespeople-and-small-works"
+      ]
+    },
+    {
+      "target_id": "CAT01-P01-C09",
+      "role": "sub_cluster",
+      "parent_id": "CAT01-P01",
+      "parent_url": "https://cjbangsubareunbangsu.pages.dev/blog/sangdang-gu-waterproofing/",
+      "canonical_url": "https://cjbangsubareunbangsu.pages.dev/blog/yeongun-dong-waterproofing/",
+      "source_file": "public/blog/yeongun-dong-waterproofing/index.html",
+      "title": "영운동 방수 업체 | 청주 지역 공사·견적 알아보기",
+      "primary_keyword": "영운동 방수 업체 청주",
+      "status": "ready",
+      "date_published": "2026-09-26T09:00:00+09:00",
+      "date_modified": "2026-09-26T09:00:00+09:00",
+      "source_urls": [
+        "https://www.consumer.vic.gov.au/housing/building-and-renovating/plan-and-manage-your-building-project/choosing-a-building-team",
+        "https://iibec.org/publication-post/44373/",
+        "https://iibec.org/publication-post/iibec-technical-advisory-no-013-2017-importance-of-removal-and-replacement-of-roof-substrate-materials-damaged-by-entrapped-moisture-or-moisture-intrusion-during-new-roof-installation/",
+        "https://cemplas.co.uk/case-study/kent-science-park/",
+        "https://www.consumer.vic.gov.au/housing/building-and-renovating/plan-and-manage-your-building-project/contracts"
+      ]
+    },
+    {
+      "target_id": "CAT01-P01-C10",
+      "role": "sub_cluster",
+      "parent_id": "CAT01-P01",
+      "parent_url": "https://cjbangsubareunbangsu.pages.dev/blog/sangdang-gu-waterproofing/",
+      "canonical_url": "https://cjbangsubareunbangsu.pages.dev/blog/geumcheon-dong-waterproofing/",
+      "source_file": "public/blog/geumcheon-dong-waterproofing/index.html",
+      "title": "금천동 방수 업체 | 청주 아파트·상가 공사 찾기",
+      "primary_keyword": "금천동 방수 업체 청주",
+      "status": "ready",
+      "date_published": "2026-09-26T09:00:00+09:00",
+      "date_modified": "2026-09-26T09:00:00+09:00",
+      "source_urls": [
+        "https://www.cheongju.go.kr/geumcheon/index.do",
+        "https://www.kryton.com/projects/homeplus-hypermarkets/",
+        "https://iibec.org/publication-post/2014-07-schwetz/",
+        "https://www.consumer.vic.gov.au/housing/building-and-renovating/checklists/building-contracts",
+        "https://cemplas.co.uk/case-study/st-georges-court-camberley/"
       ]
     },
     {

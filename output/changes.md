@@ -1,29 +1,42 @@
-# 발행 변경 기록 (수정판) — 2026-09-26
+# 발행 변경 기록 (5차) — 2026-09-26
+15개 썸네일 이미지 적용 (홈 1 + 구 4 + 상당구 하위 10)
 
-## 구조 변경 사유
-`청주 방수 업체`(CAT01)를 별도 블로그 글로 발행하면, 이미 같은 주제를 다루고 있는 홈페이지(`/`)와 검색·클릭 경쟁이 생겨 자기잠식이 발생합니다. 그래서 CAT01을 별도 페이지로 만들지 않고 **홈페이지 자체를 최상위 필러 페이지로 유지**하도록 구조를 바꿨습니다.
+## 이미지 처리
+- 업로드된 15개 PNG(1254×1254)를 각 페이지 키워드에 맞게 매칭 확인(육안 검수: 이미지 안에 새겨진
+  지역명 텍스트로 1:1 대조) 후 WebP로 변환(quality 82) — 평균 약 2.4MB → 약 200KB로 축소.
+- 저장 위치: `public/assets/images/blog/{slug}.webp` (15개 파일)
 
-## 최종 구조
-- 최상위 필러: `https://cjbangsubareunbangsu.pages.dev/` (기존 홈페이지, 변경 없음 + 지역 섹션에 링크 추가)
-- 클러스터 4개(발행 파일 그대로):
-  - `/blog/sangdang-gu-waterproofing/` (상당구)
-  - `/blog/seowon-gu-waterproofing/` (서원구)
-  - `/blog/heungdeok-gu-waterproofing/` (흥덕구)
-  - `/blog/cheongwon-gu-waterproofing/` (청원구)
-- **삭제**: `/blog/cheongju-waterproofing-company/` (CAT01 허브 페이지, 홈페이지로 대체되어 삭제)
+## 매칭 결과
+| 원본 파일 | 페이지 |
+|---|---|
+| 1.png | 홈페이지 (청주 방수 업체) |
+| 2.png | 서원구 |
+| 3.png | 상당구 |
+| 4.png | 흥덕구 |
+| 5.png | 청원구 |
+| 6.png | 낭성면 |
+| 7.png | 미원면 |
+| 8.png | 가덕면 |
+| 9.png | 문의면 |
+| 10.png | 남일면 |
+| 11.png | 성안동 |
+| 12.png | 탑동 |
+| 13.png | 대성동 |
+| 14.png | 영운동 |
+| 15.png | 금천동 |
 
-## 이번에 수정한 파일
-- `public/index.html` — 기존 "CHEONGJU SERVICE AREA" 구역의 구 이름 4개를 각 지역 글로 연결되는 링크로 변경, `id="districts"` 앵커 추가
-- `public/assets/css/style.css` — `.districts a` 스타일(호버 포함) 추가
-- `public/{index,rooftop,exterior,bathroom,basement,crack-repair}/index.html` — 내비게이션의 "방수업체 가이드" 링크가 `/blog/cheongju-waterproofing-company/` 대신 홈페이지 지역 구역(`/#districts`)으로 연결되도록 수정
-- `public/blog/sangdang-gu-waterproofing/index.html` 외 3개 — 브레드크럼을 "청주방수 / {구}" 2단계로 단순화(중간 허브 크럼 제거), 하단 상위 링크를 홈페이지로 변경, BreadcrumbList JSON-LD도 2단계로 수정
-- `public/sitemap.xml`, `public/rss.xml` — CAT01 URL/항목 제거, 4개 구 URL/항목만 유지
-- `content-registry.json` — CAT01을 "홈페이지에 병합됨(pillar_merged_into_homepage)"으로 기록, 4개 글의 parent_url을 홈페이지로 기록
+## 수정 파일
+- `public/assets/css/editorial.css` — `.article-hero-image` 스타일 추가(반응형, 모바일 전체폭)
+- `public/blog/*/index.html` (14개 전부) —
+  1) 히어로 영역에 `<figure class="article-hero-image">` 이미지 삽입
+  2) `og:image`, `twitter:image`를 해당 페이지 전용 webp로 교체
+  3) BlogPosting JSON-LD에 `image` 필드 추가
+- `public/index.html` — `og:image`, `twitter:image`를 홈페이지용 webp로 교체
+  (홈페이지 자체 히어로는 기존 커스텀 디자인을 유지하고 이미지를 덧대지 않음 — 이미 실사진 배경과
+  자체 타이틀 레이아웃이 있어 텍스트가 새겨진 썸네일을 추가하면 중복·시각적 충돌이 발생하기 때문)
 
-## 검증 (실제 빌드 실행 확인)
+## 검증 결과
 - `SITE_URL=https://cjbangsubareunbangsu.pages.dev node scripts/build.mjs` 성공
-- 홈페이지 지역 링크 4개 정상 생성 확인
-- 내비게이션 "방수업체 가이드" 링크가 6개 페이지 모두 `/#districts`로 정상 변경 확인
-- `/blog/cheongju-waterproofing-company/` 폴더 삭제 및 dist에 미생성 확인
-- 4개 지역 글 모두 2단계 브레드크럼 + JSON-LD(BlogPosting/BreadcrumbList/FAQPage) 파싱 정상
-- sitemap.xml 10개 URL(기존 6 + 신규 4), rss.xml 10개 item(기존 6 + 신규 4) 확인, `example.com` 잔존 0건
+- dist에 webp 15개 전부 생성 확인(합계 약 3.1MB)
+- 14개 블로그 페이지 전부 JSON-LD 파싱 정상, og:image가 실제 도메인으로 정상 치환
+- `example.com` 잔존 0건
