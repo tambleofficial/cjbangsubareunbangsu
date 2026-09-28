@@ -33,14 +33,8 @@ const preview = !!process.env.CF_PAGES_BRANCH &&
 // 1) 기존 배포 결과 삭제
 fs.rmSync('dist', { recursive: true, force: true });
 
-// 2) 기존 public 구조/하위페이지/asset은 그대로 유지
+// 2) public 폴더 전체를 배포 폴더(dist)로 복사 — 사이트 원본은 public/ 하나뿐
 fs.cpSync('public', 'dist', { recursive: true });
-
-// 3) 메인 페이지만 루트 index.html을 최종 배포본으로 덮어쓰기
-if (!fs.existsSync('index.html')) {
-  throw Error('프로젝트 루트 index.html이 없습니다.');
-}
-fs.copyFileSync('index.html', 'dist/index.html');
 
 function walk(dir) {
   for (const name of fs.readdirSync(dir)) {
