@@ -2,76 +2,54 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<!-- 네이버 캐러셀: 메인에서만 1개의 ItemList. 원본 이미지와 세부페이지 절대 URL 사용. -->
+<!-- 캐러셀: 6개 항목의 이미지·제목·같은 페이지 본문 앵커를 하나의 ItemList로 연결. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "청주방수 시공 분야",
-  "numberOfItems": 9,
+  "name": "청주방수 주요 시공 분야",
   "itemListElement": [
     {
       "@type": "ListItem",
       "position": 1,
       "name": "청주 옥상방수",
-      "image": "https://example.com/assets/images/rooftop.png",
-      "url": "https://example.com/rooftop/"
+      "url": "https://example.com/#waterproofing-1",
+      "image": "https://example.com/assets/images/carousel/rooftop.webp"
     },
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "청주 외벽방수",
-      "image": "https://example.com/assets/images/exterior.png",
-      "url": "https://example.com/exterior/"
+      "name": "청주 외벽방수·페인트",
+      "url": "https://example.com/#waterproofing-2",
+      "image": "https://example.com/assets/images/carousel/exterior.webp"
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "청주 욕실방수",
-      "image": "https://example.com/assets/images/bathroom.png",
-      "url": "https://example.com/bathroom/"
+      "name": "청주 창틀 코킹",
+      "url": "https://example.com/#waterproofing-3",
+      "image": "https://example.com/assets/images/carousel/window-frame-waterproofing.webp"
     },
     {
       "@type": "ListItem",
       "position": 4,
-      "name": "청주 지하방수",
-      "image": "https://example.com/assets/images/basement.png",
-      "url": "https://example.com/basement/"
+      "name": "청주 지붕방수",
+      "url": "https://example.com/#waterproofing-4",
+      "image": "https://example.com/assets/images/carousel/sloped-roof.webp"
     },
     {
       "@type": "ListItem",
       "position": 5,
-      "name": "청주 균열보수",
-      "image": "https://example.com/assets/images/crack-repair.png",
-      "url": "https://example.com/crack-repair/"
+      "name": "청주 에폭시 바닥",
+      "url": "https://example.com/#waterproofing-5",
+      "image": "https://example.com/assets/images/carousel/epoxy-floor.webp"
     },
     {
       "@type": "ListItem",
       "position": 6,
-      "name": "청주 베란다방수",
-      "image": "https://example.com/assets/images/balcony-waterproofing.webp",
-      "url": "https://example.com/balcony-waterproofing/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 7,
-      "name": "청주 창틀방수",
-      "image": "https://example.com/assets/images/window-frame-waterproofing.webp",
-      "url": "https://example.com/window-frame-waterproofing/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 8,
-      "name": "청주 주차장방수",
-      "image": "https://example.com/assets/images/parking-waterproofing.webp",
-      "url": "https://example.com/parking-waterproofing/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 9,
-      "name": "청주 테라스방수",
-      "image": "https://example.com/assets/images/terrace-waterproofing.webp",
-      "url": "https://example.com/terrace-waterproofing/"
+      "name": "청주 누수·균열보수",
+      "url": "https://example.com/#waterproofing-6",
+      "image": "https://example.com/assets/images/carousel/crack-repair.webp"
     }
   ]
 }
@@ -86,19 +64,55 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="청주 바른방수">
-<meta property="og:title" content="청주방수 | 옥상·외벽·욕실·지하 방수 - 청주 바른방수">
+<meta property="og:title" content="청주방수업체 | 옥상·외벽·코킹·지붕·페인트·에폭시·누수">
 <meta property="og:description" content="청주방수 시공 분야와 누수 점검 안내. 청주 바른방수에서 옥상·외벽·욕실·지하 방수, 균열보수의 확인 사항과 작업 절차를 살펴보세요.">
 <meta property="og:url" content="https://example.com/">
-<meta property="og:image" content="https://example.com/assets/images/rooftop.png">
+<meta property="og:image" content="https://example.com/assets/images/blog/cheongju-waterproofing-company.webp">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="청주방수 | 옥상·외벽·욕실·지하 방수 - 청주 바른방수">
+<meta name="twitter:title" content="청주방수업체 | 옥상·외벽·코킹·지붕·페인트·에폭시·누수">
 <meta name="twitter:description" content="청주방수 시공 분야와 누수 점검 안내. 청주 바른방수에서 옥상·외벽·욕실·지하 방수, 균열보수의 확인 사항과 작업 절차를 살펴보세요.">
-<meta name="twitter:image" content="https://example.com/assets/images/rooftop.png">
+<meta name="twitter:image" content="https://example.com/assets/images/blog/cheongju-waterproofing-company.webp">
 <meta name="theme-color" content="#102e39">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/carousel.css?v=20261002-6">
 <script src="/assets/js/main.js" defer></script>
-</head><body><a class="skip" href="#main">본문 바로가기</a><header class="header"><div class="wrap nav-wrap"><a class="brand" href="/" aria-label="청주 바른방수 홈"><span class="brand-mark">B.</span><span>청주 바른방수<small>BAREUN WATERPROOFING</small></span></a><button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">메뉴 <span>☰</span></button><nav id="main-nav" aria-label="주 메뉴"><a href="/rooftop/">옥상방수</a><a href="/exterior/">외벽방수</a><a href="/bathroom/">욕실방수</a><a href="/basement/">지하방수</a><a href="/crack-repair/">균열보수</a></nav><a class="nav-cta" href="#contact">상담 준비하기 ↗</a></div></header><main id="main"><section class="hero" id="top"><div class="hero-image"><img src="/assets/images/rooftop.png" alt="도심 건물의 옥상 방수층을 표현한 AI 생성 이미지" fetchpriority="high" width="1672" height="941"></div><div class="wrap hero-content"><p class="eyebrow">CHEONGJU · WATERPROOFING</p><h1>청주방수,<br>물의 길을 잡고<br><em>공간을 지킵니다.</em></h1><p class="hero-desc">옥상에서 지하까지.<br>겉으로 보이는 흔적보다, 물이 시작된 곳을 살핍니다.</p><a class="button light" href="#services">우리 공간에 맞는 방수 찾기 <span>↗</span></a><div class="hero-foot"><span>청주 바른방수</span><span>원인 확인 → 바탕 보수 → 방수 마감</span></div></div></section>
-<section class="services section" id="services" aria-labelledby="services-title" aria-roledescription="캐러셀"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">01 / OUR SERVICES</p><h2 id="services-title">공간은 달라도,<br>기본은 바르게.</h2></div><div class="section-side"><p>누수가 생긴 위치에 따라<br>확인해야 할 부분도 달라집니다.</p><div class="carousel-controls"><button data-prev aria-label="이전 시공 분야" aria-controls="service-track">←</button><span data-count aria-live="polite">01 / 09</span><button data-next aria-label="다음 시공 분야" aria-controls="service-track">→</button></div></div></div><ul class="service-track" id="service-track" tabindex="0" aria-label="방수 분야 9개. 좌우로 넘겨보세요" style="list-style:none;margin-top:0;margin-bottom:0;padding-left:0"><li class="service-card"><a href="/rooftop/"><div class="card-image"><img src="/assets/images/rooftop.png" alt="청주 옥상방수" loading="lazy"><span>01</span></div><div class="card-copy"><small>ROOFTOP</small><h3>청주 옥상방수 <span>↗</span></h3><p>햇빛과 비에 노출되는 옥상. 기존 방수층의 들뜸부터 배수 흐름까지 살펴 보수 범위를 정합니다.</p></div></a></li><li class="service-card"><a href="/exterior/"><div class="card-image"><img src="/assets/images/exterior.png" alt="청주 외벽방수" loading="lazy"><span>02</span></div><div class="card-copy"><small>EXTERIOR</small><h3>청주 외벽방수 <span>↗</span></h3><p>외벽의 균열과 창틀 주변 접합부를 확인하고, 빗물의 유입 경로에 맞춰 보수합니다.</p></div></a></li><li class="service-card"><a href="/bathroom/"><div class="card-image"><img src="/assets/images/bathroom.png" alt="청주 욕실방수" loading="lazy"><span>03</span></div><div class="card-copy"><small>BATHROOM</small><h3>청주 욕실방수 <span>↗</span></h3><p>타일 아래 방수층, 배수구와 배관 관통부를 함께 살펴 욕실 누수의 원인을 구분합니다.</p></div></a></li><li class="service-card"><a href="/basement/"><div class="card-image"><img src="/assets/images/basement.png" alt="청주 지하방수" loading="lazy"><span>04</span></div><div class="card-copy"><small>BASEMENT</small><h3>청주 지하방수 <span>↗</span></h3><p>지하 벽체와 바닥의 접합부, 균열, 배수 여건을 살펴 지하 공간에 맞는 보수 방향을 정합니다.</p></div></a></li><li class="service-card"><a href="/crack-repair/"><div class="card-image"><img src="/assets/images/crack-repair.png" alt="청주 균열보수" loading="lazy"><span>05</span></div><div class="card-copy"><small>CRACK REPAIR</small><h3>청주 균열보수 <span>↗</span></h3><p>콘크리트 균열의 상태와 누수 여부를 확인하고, 충전·실링·주입 등 적합한 보수 방법을 검토합니다.</p></div></a></li><li class="service-card"><a href="/balcony-waterproofing/"><div class="card-image"><img src="/assets/images/balcony-waterproofing.webp" alt="청주 베란다방수" width="1254" height="1254" loading="lazy"><span>06</span></div><div class="card-copy"><small>BALCONY</small><h3>청주 베란다방수 <span>↗</span></h3><p>베란다 바닥과 벽체 접합부, 배수구 주변의 물 고임과 균열을 살펴 방수 범위를 정합니다.</p></div></a></li><li class="service-card"><a href="/window-frame-waterproofing/"><div class="card-image"><img src="/assets/images/window-frame-waterproofing.webp" alt="청주 창틀방수" width="1254" height="1254" loading="lazy"><span>07</span></div><div class="card-copy"><small>WINDOW FRAME</small><h3>청주 창틀방수 <span>↗</span></h3><p>창틀 주변 실란트와 외벽 접합부를 확인해 빗물이 스며드는 구간과 보수 범위를 살펴봅니다.</p></div></a></li><li class="service-card"><a href="/parking-waterproofing/"><div class="card-image"><img src="/assets/images/parking-waterproofing.webp" alt="청주 주차장방수" width="1254" height="1254" loading="lazy"><span>08</span></div><div class="card-copy"><small>PARKING</small><h3>청주 주차장방수 <span>↗</span></h3><p>주차장 바닥과 벽체의 균열, 접합부, 배수 상태를 확인해 물이 머무는 구간의 보수 방향을 정합니다.</p></div></a></li><li class="service-card"><a href="/terrace-waterproofing/"><div class="card-image"><img src="/assets/images/terrace-waterproofing.webp" alt="청주 테라스방수" width="1254" height="1254" loading="lazy"><span>09</span></div><div class="card-copy"><small>TERRACE</small><h3>청주 테라스방수 <span>↗</span></h3><p>외부 테라스의 바닥 마감과 배수 흐름, 벽체 접합부를 함께 살펴 방수층의 상태를 확인합니다.</p></div></a></li></ul></div></section>
+<script src="/assets/js/carousel.js?v=20261002-6" defer></script>
+</head><body><a class="skip" href="#main">본문 바로가기</a><header class="header"><div class="wrap nav-wrap"><a class="brand" href="/" aria-label="청주 바른방수 홈"><span class="brand-mark">B.</span><span>청주 바른방수<small>BAREUN WATERPROOFING</small></span></a><button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">메뉴 <span>☰</span></button><nav id="main-nav" aria-label="주 메뉴"><a href="/rooftop/">옥상방수</a><a href="/exterior/">외벽방수</a><a href="/bathroom/">욕실방수</a><a href="/basement/">지하방수</a><a href="/crack-repair/">균열보수</a><a href="/#districts">방수업체 가이드</a></nav><a class="nav-cta" href="tel:01042890581" aria-label="전화 상담 010-4289-0581">상담전화 010-4289-0581 ↗</a></div></header><main id="main"><section class="services section" id="services" aria-labelledby="services-title" aria-roledescription="캐러셀">
+<div class="wrap"><div class="section-heading"><div><p class="eyebrow">01 / OUR SERVICES</p><h2 id="services-title">청주방수 주요 시공 분야</h2></div><div class="section-side"><p>방수·도장·누수보수,<br>공간과 손상 부위에 맞춰 살펴봅니다.</p><div class="carousel-controls" hidden><button type="button" data-carousel-prev aria-label="이전 시공 분야" aria-controls="waterproofing-carousel-track" disabled>←</button><span data-carousel-count role="status" aria-live="polite" aria-atomic="true">01 / 06</span><button type="button" data-carousel-next aria-label="다음 시공 분야" aria-controls="waterproofing-carousel-track">→</button></div></div></div>
+<ul class="service-track visible-carousel" id="waterproofing-carousel-track" tabindex="0" aria-label="청주방수 주요 시공 분야 6개" aria-describedby="carousel-help">
+<li class="service-card"><a href="#waterproofing-1" aria-label="청주 옥상방수 설명 보기"><div class="card-image"><img src="/assets/images/carousel/rooftop.webp" alt="청주 옥상방수 — 옥상 바닥의 우레탄 방수층과 배수구" width="1254" height="1254" loading="eager" decoding="async" fetchpriority="high"><span aria-hidden="true">01</span></div><div class="card-copy"><h3>청주 옥상방수</h3><p>옥상 도막의 들뜸과 균열, 배수구 주변을 살펴 바닥과 난간벽 접합부의 방수 범위를 정합니다.</p><span class="card-action">시공 분야 살펴보기 ↓</span></div></a></li>
+<li class="service-card"><a href="#waterproofing-2" aria-label="청주 외벽방수·페인트 설명 보기"><div class="card-image"><img src="/assets/images/carousel/exterior.webp" alt="청주 외벽방수·페인트 — 외벽 바탕면에 롤러로 도장하는 작업" width="1254" height="1254" loading="eager" decoding="async"><span aria-hidden="true">02</span></div><div class="card-copy"><h3>청주 외벽방수·페인트</h3><p>외벽 균열과 도장 들뜸을 확인하고, 바탕 보수와 외부 노출 조건에 맞는 방수·도장을 검토합니다.</p><span class="card-action">시공 분야 살펴보기 ↓</span></div></a></li>
+<li class="service-card"><a href="#waterproofing-3" aria-label="청주 창틀 코킹 설명 보기"><div class="card-image"><img src="/assets/images/carousel/window-frame-waterproofing.webp" alt="청주 창틀 코킹 — 창틀과 외벽 사이 접합부에 실란트를 시공하는 작업" width="1254" height="1254" loading="eager" decoding="async"><span aria-hidden="true">03</span></div><div class="card-copy"><h3>청주 창틀 코킹</h3><p>창틀과 외벽 사이의 갈라지거나 벌어진 실란트를 살펴 빗물이 스며드는 접합부를 보수합니다.</p><span class="card-action">시공 분야 살펴보기 ↓</span></div></a></li>
+<li class="service-card"><a href="#waterproofing-4" aria-label="청주 지붕방수 설명 보기"><div class="card-image"><img src="/assets/images/carousel/sloped-roof.webp" alt="청주 지붕방수 — 금속 지붕 판넬의 이음부와 덮개 접합부 방수 마감" width="1254" height="1254" loading="eager" decoding="async"><span aria-hidden="true">04</span></div><div class="card-copy"><h3>청주 지붕방수</h3><p>지붕 판넬 이음부와 고정부, 덮개·홈통 주변을 점검해 빗물이 유입되는 구간의 보수를 검토합니다.</p><span class="card-action">시공 분야 살펴보기 ↓</span></div></a></li>
+<li class="service-card"><a href="#waterproofing-5" aria-label="청주 에폭시 바닥 설명 보기"><div class="card-image"><img src="/assets/images/carousel/epoxy-floor.webp" alt="청주 에폭시 바닥 — 실내 콘크리트 바닥에 에폭시 코팅을 펴 바르는 작업" width="1254" height="1254" loading="eager" decoding="async"><span aria-hidden="true">05</span></div><div class="card-copy"><h3>청주 에폭시 바닥</h3><p>콘크리트 바닥의 균열·들뜸·수분 상태를 확인하고, 공간의 이용 조건에 맞는 에폭시 마감을 검토합니다.</p><span class="card-action">시공 분야 살펴보기 ↓</span></div></a></li>
+<li class="service-card"><a href="#waterproofing-6" aria-label="청주 누수·균열보수 설명 보기"><div class="card-image"><img src="/assets/images/carousel/crack-repair.webp" alt="청주 누수·균열보수 — 콘크리트 벽체 균열 부위에 보수재를 주입하는 작업" width="1254" height="1254" loading="eager" decoding="async"><span aria-hidden="true">06</span></div><div class="card-copy"><h3>청주 누수·균열보수</h3><p>누수 발생 시점과 균열 상태를 함께 살펴 충전·실링·주입 등 보수 방법과 작업 범위를 정합니다.</p><span class="card-action">시공 분야 살펴보기 ↓</span></div></a></li>
+</ul><p class="carousel-hint" id="carousel-help">사진을 누르면 아래의 해당 시공 분야 설명으로 이동합니다. 작은 화면에서는 좌우로 넘겨 살펴보세요.</p></div></section><section class="hero" id="top"><div class="hero-image"><img src="/assets/images/rooftop.png" alt="도심 건물의 옥상 방수층을 표현한 이미지" fetchpriority="high" width="1672" height="941"></div><div class="wrap hero-content"><p class="eyebrow">CHEONGJU · WATERPROOFING</p><h1>청주방수,<br>물의 길을 잡고<br><em>공간을 지킵니다.</em></h1><p class="hero-desc">옥상에서 지하까지.<br>겉으로 보이는 흔적보다, 물이 시작된 곳을 살핍니다.</p><a class="button light" href="tel:01042890581" aria-label="전화 상담 010-4289-0581">전화 상담 010-4289-0581 <span>↗</span></a><div class="hero-foot"><span>청주 바른방수</span><span>원인 확인 → 바탕 보수 → 방수 마감</span></div></div></section><!-- WATERPROOFING_CAROUSEL_DETAILS_START --><section id="waterproofing-details" aria-labelledby="waterproofing-details-title"><div class="wrap"><div class="waterproofing-details-heading"><h2 id="waterproofing-details-title">분야별 방수·보수 안내</h2><p>옥상과 외벽부터 창틀, 지붕, 바닥, 누수 부위까지. 시공 분야별로 살펴볼 부분과 상담 전 준비할 내용을 안내합니다.</p></div>
+<article class="waterproofing-field" id="waterproofing-1" aria-labelledby="waterproofing-1-title" tabindex="-1">
+<figure><img src="/assets/images/carousel/rooftop.webp" alt="청주 옥상방수 — 옥상 바닥의 우레탄 방수층과 배수구" width="1254" height="1254" loading="lazy" decoding="async"><figcaption>청주 옥상방수</figcaption></figure>
+<div class="waterproofing-field-copy"><p class="waterproofing-label">01 / ROOFTOP</p><h3 id="waterproofing-1-title">청주 옥상방수</h3><p class="waterproofing-description">햇빛과 비를 직접 받는 옥상은 바닥의 방수층뿐 아니라 난간벽과 만나는 모서리, 배수구 주변도 함께 살펴야 합니다. 기존 도막의 접착 상태와 물이 고이는 위치를 확인해 바탕 보수와 방수층 시공 범위를 나눕니다.</p><h4>주요 확인 부위</h4><ul class="waterproofing-checks"><li>기존 방수층의 갈라짐·부풀음·들뜸</li><li>난간벽과 바닥이 만나는 접합부</li><li>배수구 주변의 균열과 물 고임</li></ul><dl class="waterproofing-specs"><div><dt>대상 공간</dt><dd>주택·상가·빌라의 평지붕 옥상</dd></div><div><dt>주요 작업</dt><dd>바탕 보수·접합부 보강·도막 방수</dd></div><div><dt>상담 준비</dt><dd>전체 면적과 손상 부위 사진</dd></div></dl><div class="waterproofing-links"><a href="/rooftop/">옥상방수 상세 안내 ↗</a><a href="#services">6개 시공 분야 다시 보기 ↑</a></div></div>
+</article>
+<article class="waterproofing-field" id="waterproofing-2" aria-labelledby="waterproofing-2-title" tabindex="-1">
+<figure><img src="/assets/images/carousel/exterior.webp" alt="청주 외벽방수·페인트 — 외벽 바탕면에 롤러로 도장하는 작업" width="1254" height="1254" loading="lazy" decoding="async"><figcaption>청주 외벽방수·페인트</figcaption></figure>
+<div class="waterproofing-field-copy"><p class="waterproofing-label">02 / EXTERIOR &amp; PAINT</p><h3 id="waterproofing-2-title">청주 외벽방수·페인트</h3><p class="waterproofing-description">외벽에 빗물 자국이 남거나 페인트가 벗겨질 때에는 표면 색상과 함께 바탕의 손상 상태를 확인합니다. 균열과 창 주변 접합부의 보수 범위를 정한 뒤, 기존 마감재와 비·햇빛 노출 조건에 맞는 방수 및 페인트 작업을 검토합니다.</p><h4>주요 확인 부위</h4><ul class="waterproofing-checks"><li>외벽 균열과 빗물이 흐른 흔적</li><li>페인트의 벗겨짐과 바탕면 들뜸</li><li>창 주변·모서리·서로 다른 자재의 접합부</li></ul><dl class="waterproofing-specs"><div><dt>대상 공간</dt><dd>주택·상가·빌라 외벽</dd></div><div><dt>주요 작업</dt><dd>균열 보수·바탕 정리·방수 및 도장</dd></div><div><dt>상담 준비</dt><dd>건물 전경과 외벽 손상 사진</dd></div></dl><div class="waterproofing-links"><a href="/exterior/">외벽방수 상세 안내 ↗</a><a href="#services">6개 시공 분야 다시 보기 ↑</a></div></div>
+</article>
+<article class="waterproofing-field" id="waterproofing-3" aria-labelledby="waterproofing-3-title" tabindex="-1">
+<figure><img src="/assets/images/carousel/window-frame-waterproofing.webp" alt="청주 창틀 코킹 — 창틀과 외벽 사이 접합부에 실란트를 시공하는 작업" width="1254" height="1254" loading="lazy" decoding="async"><figcaption>청주 창틀 코킹</figcaption></figure>
+<div class="waterproofing-field-copy"><p class="waterproofing-label">03 / WINDOW CAULKING</p><h3 id="waterproofing-3-title">청주 창틀 코킹</h3><p class="waterproofing-description">비가 올 때 창 주변이 젖는다면 창틀과 외벽 사이의 코킹 상태를 살펴봅니다. 기존 실란트가 떨어지거나 갈라진 구간, 창 모서리의 틈을 확인하고 주변 외벽 균열과 구분해 보수 범위를 정합니다. 창틀 배수 경로도 함께 확인합니다.</p><h4>주요 확인 부위</h4><ul class="waterproofing-checks"><li>창틀 테두리 실란트의 갈라짐·박리</li><li>창 모서리와 외벽 사이 벌어진 틈</li><li>비가 오는 방향과 실내 물 자국 위치</li></ul><dl class="waterproofing-specs"><div><dt>대상 공간</dt><dd>주택·빌라·상가 창 주변</dd></div><div><dt>주요 작업</dt><dd>기존 실란트 정리·접합부 코킹</dd></div><div><dt>상담 준비</dt><dd>창 전체와 젖는 위치의 사진</dd></div></dl><div class="waterproofing-links"><a href="/window-frame-waterproofing/">창틀방수 상세 안내 ↗</a><a href="#services">6개 시공 분야 다시 보기 ↑</a></div></div>
+</article>
+<article class="waterproofing-field" id="waterproofing-4" aria-labelledby="waterproofing-4-title" tabindex="-1">
+<figure><img src="/assets/images/carousel/sloped-roof.webp" alt="청주 지붕방수 — 금속 지붕 판넬의 이음부와 덮개 접합부 방수 마감" width="1254" height="1254" loading="lazy" decoding="async"><figcaption>청주 지붕방수</figcaption></figure>
+<div class="waterproofing-field-copy"><p class="waterproofing-label">04 / ROOF SEALING</p><h3 id="waterproofing-4-title">청주 지붕방수</h3><p class="waterproofing-description">경사진 지붕은 지붕재 자체의 상태와 판넬이 겹치는 이음부, 고정부 주변을 나누어 확인합니다. 벽과 지붕이 만나는 부위나 덮개 접합부, 홈통의 배수 상태를 함께 살펴 누수 흔적과 연결되는 구간을 찾고 지붕재에 맞는 보수 방법을 검토합니다.</p><h4>주요 확인 부위</h4><ul class="waterproofing-checks"><li>지붕 판넬 이음부와 고정부 주변 틈</li><li>덮개·벽체 연결부의 손상</li><li>홈통 막힘과 지붕재의 부식·변형</li></ul><dl class="waterproofing-specs"><div><dt>대상 공간</dt><dd>주택·상가의 판넬 및 금속 지붕</dd></div><div><dt>주요 작업</dt><dd>이음부 보수·접합부 방수</dd></div><div><dt>상담 준비</dt><dd>지붕 형태와 실내 누수 위치</dd></div></dl><div class="waterproofing-links"><a href="#contact">지붕방수 상담 안내 ↗</a><a href="#services">6개 시공 분야 다시 보기 ↑</a></div></div>
+</article>
+<article class="waterproofing-field" id="waterproofing-5" aria-labelledby="waterproofing-5-title" tabindex="-1">
+<figure><img src="/assets/images/carousel/epoxy-floor.webp" alt="청주 에폭시 바닥 — 실내 콘크리트 바닥에 에폭시 코팅을 펴 바르는 작업" width="1254" height="1254" loading="lazy" decoding="async"><figcaption>청주 에폭시 바닥</figcaption></figure>
+<div class="waterproofing-field-copy"><p class="waterproofing-label">05 / EPOXY FLOOR</p><h3 id="waterproofing-5-title">청주 에폭시 바닥</h3><p class="waterproofing-description">에폭시 바닥 마감은 콘크리트 바탕 상태와 공간의 이용 조건을 함께 보고 결정합니다. 기존 코팅의 들뜸, 균열과 오염을 확인해 바탕 정리 범위를 정하고 마감과 양생 일정을 안내합니다. 바닥에 누수가 있다면 코팅에 앞서 물의 유입 원인과 별도 방수 필요 여부를 확인합니다.</p><h4>주요 확인 부위</h4><ul class="waterproofing-checks"><li>기존 바닥 코팅의 들뜸과 마모</li><li>콘크리트 균열·오염·수분 상태</li><li>보행·차량 이동 등 바닥 사용 조건</li></ul><dl class="waterproofing-specs"><div><dt>대상 공간</dt><dd>상가·창고·작업장 등의 실내 바닥</dd></div><div><dt>주요 작업</dt><dd>바탕 정리·균열 보수·에폭시 마감</dd></div><div><dt>상담 준비</dt><dd>바닥 면적과 공간 이용 일정</dd></div></dl><div class="waterproofing-links"><a href="#contact">에폭시 바닥 상담 안내 ↗</a><a href="#services">6개 시공 분야 다시 보기 ↑</a></div></div>
+</article>
+<article class="waterproofing-field" id="waterproofing-6" aria-labelledby="waterproofing-6-title" tabindex="-1">
+<figure><img src="/assets/images/carousel/crack-repair.webp" alt="청주 누수·균열보수 — 콘크리트 벽체 균열 부위에 보수재를 주입하는 작업" width="1254" height="1254" loading="lazy" decoding="async"><figcaption>청주 누수·균열보수</figcaption></figure>
+<div class="waterproofing-field-copy"><p class="waterproofing-label">06 / LEAK &amp; CRACK REPAIR</p><h3 id="waterproofing-6-title">청주 누수·균열보수</h3><p class="waterproofing-description">물 자국이 보이는 위치와 실제로 물이 들어오는 곳은 다를 수 있습니다. 비가 올 때 생기는지, 평소에도 젖는지 등 발생 조건을 먼저 확인하고 벽체·바닥의 균열과 접합부를 살펴봅니다. 확인된 원인과 균열 상태에 따라 충전, 실링, 주입 등의 보수 방법을 검토합니다.</p><h4>주요 확인 부위</h4><ul class="waterproofing-checks"><li>누수가 생기는 시점과 물 자국의 변화</li><li>벽체·바닥 균열의 위치와 상태</li><li>배관 주변 및 벽·바닥 접합부의 흔적</li></ul><dl class="waterproofing-specs"><div><dt>대상 공간</dt><dd>주택·상가·지하 공간의 누수 부위</dd></div><div><dt>주요 작업</dt><dd>원인 구간 확인·균열 및 접합부 보수</dd></div><div><dt>상담 준비</dt><dd>발생 시점과 전체·근접 사진</dd></div></dl><div class="waterproofing-links"><a href="/crack-repair/">균열보수 상세 안내 ↗</a><a href="#services">6개 시공 분야 다시 보기 ↑</a></div></div>
+</article>
+</div></section><!-- WATERPROOFING_CAROUSEL_DETAILS_END -->
+
 <section class="approach section"><div class="wrap approach-grid"><div><p class="eyebrow">02 / OUR APPROACH</p><h2>덧바르기 전에,<br>먼저 살펴야 할 것.</h2><p class="lead">같은 물 자국이라도<br>원인은 같지 않을 수 있습니다.</p></div><div class="principles"><article><span>01</span><div><h3>물이 들어오는 경로</h3><p>발생 시점, 강우와의 관계, 주변 배관과 접합부를 함께 확인합니다.</p></div></article><article><span>02</span><div><h3>기존 바탕의 상태</h3><p>들뜬 도막이나 손상된 바탕을 살펴 새 방수층이 자리 잡을 조건을 정합니다.</p></div></article><article><span>03</span><div><h3>공간에 맞는 작업 범위</h3><p>면적뿐 아니라 이용 방식, 배수 상태, 접근 여건을 기준으로 공법을 검토합니다.</p></div></article></div></div></section>
-<section class="section"><div class="wrap"><p class="eyebrow">03 / PROCESS</p><div class="section-heading"><h2>처음 상담부터<br>작업 후 확인까지.</h2><p>필요한 과정을 차근차근 안내합니다.</p></div><div class="steps"><article><span>01</span><h3>증상 상담</h3><p>누수 위치와 발생 시점, 사진을 바탕으로 현장 확인을 준비합니다.</p></article><article><span>02</span><h3>현장 확인</h3><p>원인 구간과 바탕 상태를 살펴 공법과 보수 범위를 정리합니다.</p></article><article><span>03</span><h3>작업 계획·진행</h3><p>자재, 일정, 양생 시간과 이용 제한 사항을 안내합니다.</p></article><article><span>04</span><h3>마감 확인</h3><p>작업 부위를 확인하고 관리 방법과 관찰 사항을 전달합니다.</p></article></div></div></section><section class="area"><div class="wrap"><p class="eyebrow">CHEONGJU SERVICE AREA</p><h2>가까운 청주에서,<br>공간의 다음 계절을 준비합니다.</h2><div class="districts"><span>상당구</span><span>서원구</span><span>흥덕구</span><span>청원구</span></div><p>주택 · 상가 · 빌라 · 건물 공용부 / 현장 여건에 따라 작업 가능 범위와 일정을 확인합니다.</p></div></section></main><section id="contact" class="contact"><div class="wrap contact-inner"><div><p class="eyebrow">LET’S TALK ABOUT YOUR SPACE</p><h2>어디서, 언제 새는지.<br>그 이야기부터 듣겠습니다.</h2><p>현장 위치, 누수 시점, 전체 사진과 가까이 찍은 사진을 준비해 주세요.<br>작업 범위와 일정은 현장 상태를 확인한 뒤 안내합니다.</p></div><div class="contact-card"><span>청주 전 지역 상담 안내</span><!-- CONTACT_LINK --><strong>상담 연락처 준비 중</strong><!-- /CONTACT_LINK --><p>상당구 · 서원구 · 흥덕구 · 청원구</p><span class="small">옥상 · 외벽 · 욕실 · 지하 · 균열보수</span></div></div></section><footer class="footer"><div class="wrap"><div class="footer-top"><a class="brand" href="/">청주 바른방수</a><a href="#top">맨 위로 ↑</a></div><p>물의 길을 살피고, 공간에 맞는 방수 방법을 제안합니다.</p><div class="footer-bottom"><span>© 청주 바른방수</span><span>가칭 업체로 구성한 시안 · 이미지는 AI 생성 설명 이미지이며 실제 시공 사례가 아닙니다.</span></div></div></footer></body></html>
+<section class="section"><div class="wrap"><p class="eyebrow">03 / PROCESS</p><div class="section-heading"><h2>처음 상담부터<br>작업 후 확인까지.</h2><p>필요한 과정을 차근차근 안내합니다.</p></div><div class="steps"><article><span>01</span><h3>증상 상담</h3><p>누수 위치와 발생 시점, 사진을 바탕으로 현장 확인을 준비합니다.</p></article><article><span>02</span><h3>현장 확인</h3><p>원인 구간과 바탕 상태를 살펴 공법과 보수 범위를 정리합니다.</p></article><article><span>03</span><h3>작업 계획·진행</h3><p>자재, 일정, 양생 시간과 이용 제한 사항을 안내합니다.</p></article><article><span>04</span><h3>마감 확인</h3><p>작업 부위를 확인하고 관리 방법과 관찰 사항을 전달합니다.</p></article></div></div></section><section class="area" id="districts"><div class="wrap"><p class="eyebrow">CHEONGJU SERVICE AREA</p><h2>가까운 청주에서,<br>공간의 다음 계절을 준비합니다.</h2><div class="districts"><a href="/blog/sangdang-gu-waterproofing/">상당구</a><a href="/blog/seowon-gu-waterproofing/">서원구</a><a href="/blog/heungdeok-gu-waterproofing/">흥덕구</a><a href="/blog/cheongwon-gu-waterproofing/">청원구</a></div><p>주택 · 상가 · 빌라 · 건물 공용부 / 현장 여건에 따라 작업 가능 범위와 일정을 확인합니다. 구를 선택하시면 지역별 상담 전 확인사항을 안내해 드립니다.</p></div></section></main><section id="contact" class="contact"><div class="wrap contact-inner"><div><p class="eyebrow">LET’S TALK ABOUT YOUR SPACE</p><h2>어디서, 언제 새는지.<br>그 이야기부터 듣겠습니다.</h2><p>현장 위치, 누수 시점, 전체 사진과 가까이 찍은 사진을 준비해 주세요.<br>작업 범위와 일정은 현장 상태를 확인한 뒤 안내합니다.</p></div><div class="contact-card"><span>청주 전 지역 상담 안내</span><a href="tel:01042890581" aria-label="전화 상담 010-4289-0581">010-4289-0581 ↗</a><p>상당구 · 서원구 · 흥덕구 · 청원구</p><span class="small">옥상 · 외벽 · 욕실 · 지하 · 균열보수</span></div></div></section><footer class="footer"><div class="wrap"><div class="footer-top"><a class="brand" href="/">청주 바른방수</a><a href="#top">맨 위로 ↑</a></div><p>물의 길을 살피고, 공간에 맞는 방수 방법을 제안합니다.</p><div class="footer-bottom"><span>© 청주 바른방수</span></div></div></footer></body></html>
